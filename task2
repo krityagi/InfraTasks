@@ -1,0 +1,18 @@
+Below are few metrics which will be interested to monitor in this case.
+
+CPU Utilization: Its important to monitor the CPU utilization of each of the 4 CPUs to detect any potential performance issue that ay occur if any of the CPU are overloaded.
+
+Memory usage: Monitoring memory usage is important to make sure that server has enough memory available to handle the high volume of requests.
+
+Disk space usage: Monitoring the disk usage is also importnat to make sure that server has enough space available otherwise servers running out of space might cause application to crash and go down.
+
+Network traffic: Monitoring the network traffic is important to identify the congestion of network.
+
+SSL handshake times: Monitoring SSL handshake times is  important to ensure that the SSL offloading is not cuasing the delays in request processing.
+
+
+To monitor these metrics we can use monitoring tool such as Dynatrace. Dynatrace is a comprehensive monitoring tool that provides real-time visibility into application performance and infrastructure monitoring.
+Dynatrace has the capability to monitor all the metrics listed above.
+
+Challenges in monitoring this server include the high volume of requests being processed, which can generate a large amout of performance data to be collected and analyzed. So its impertant to setup the monitoring environment to capture only the required metrics.
+Also as Dynatrace is a commercial tool and can be expensive so chossing a right tool for this might be challenging job but yeah it depends on the budget otherwise we can go with open-source monitoring tools Nagios.
