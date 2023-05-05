@@ -1,5 +1,5 @@
-# InraTasks
-## Tasks1
+# InfraTasks
+## Task1
    *import random
    numbers = list(range(1, 11))*
 
