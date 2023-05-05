@@ -18,3 +18,7 @@
    *print(numbers)*
 
    And finally, we print the updated list of numbers whcih will list the numbers from 1 to 10 in random order.
+
+## Task2
+
+   I have explained about the 2nd task under task2 file.
